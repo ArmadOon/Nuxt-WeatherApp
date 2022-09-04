@@ -5,7 +5,7 @@ import autoprefixer from "autoprefixer";
 export default defineNuxtConfig({
 
   publicRuntimeConfig: {
-    WEATHER_APP_SECRET_KEY: process.env.WEATHER_APP_SECRET_KEY,
+    WEATHER_APP_SECRET: process.env.WEATHER_APP_SECRET,
   },
   privateRuntimeConfig:{
 
